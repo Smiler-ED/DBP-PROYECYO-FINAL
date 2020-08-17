@@ -58,7 +58,7 @@ public class AcercaDeActivity extends AppCompatActivity {
         switch (view.getId()){
             case R.id.icoBlog: miIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.iconfinder.com/"));
                 break;
-            case R.id.icoYoutube: miIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/user/CristianDavidHenao?sub_confirmation=1"));
+            case R.id.icoYoutube: miIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://youtube.com/"));
                 break;
             case R.id.icoFace: miIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://facebook.com/"));
                 break;
